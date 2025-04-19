@@ -1,4 +1,10 @@
 # DevOps Capstone Template
+# Proyecto DevOps Capstone
+
+![Estado de la Construcción](https://github.com/Gabrieldemarco/devops-capstone-project/actions/workflows/ci-build.yaml/badge.svg)
+
+Este proyecto es parte del curso de DevOps y demuestra cómo implementar un flujo de CI/CD usando GitHub Actions, integrando linting, testing y despliegue continuo.
+
 
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![Python 3.9](https://img.shields.io/badge/Python-3.9-green.svg)](https://shields.io/)
