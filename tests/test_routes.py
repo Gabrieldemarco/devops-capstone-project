@@ -54,7 +54,6 @@ class TestAccountService(TestCase):
         """It should not Read an Account that is not found"""
         resp = self.client.get(f"{BASE_URL}/0")
         self.assertEqual(resp.status_code, status.HTTP_404_NOT_FOUND)
-        
     ######################################################################
     #  H E L P E R   M E T H O D S
     ######################################################################
@@ -128,5 +127,4 @@ class TestAccountService(TestCase):
         )
         self.assertEqual(response.status_code, status.HTTP_415_UNSUPPORTED_MEDIA_TYPE)
 
-    # ADD YOUR TEST CASES HERE ...
-    
+    # ADD YOUR TEST CASES HERE ..
